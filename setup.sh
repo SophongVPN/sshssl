@@ -65,7 +65,7 @@ mkdir /var/lib/akbarstorevpn;
 wget https://${akbarvpn}/newhost.sh && chmod +x newhost.sh && ./newhost.sh
 sleep 1
 #install v2ray
-wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
+#wget https://${akbarvpnnnnnn}/ins-xray.sh && chmod +x ins-xray.sh && screen -S xray ./ins-xray.sh
 #install ssh ovpn
 wget https://${akbarvpn}/ssh-vpn.sh && chmod +x ssh-vpn.sh && screen -S ssh-vpn ./ssh-vpn.sh
 # Websocket
@@ -85,7 +85,7 @@ rm -f /root/cf.sh
 rm -f /root/ssh-vpn.sh
 rm -f /root/sslh-fix.sh
 rm -f /root/getupdate.sh
-rm -f /root/ins-xray.sh
+#rm -f /root/ins-xray.sh
 rm -f /root/ipsec.sh
 rm -f /root/set-br.sh
 rm -f /root/edu.sh
